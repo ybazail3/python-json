@@ -32,9 +32,10 @@ print(loaded_data)
 loaded_data["age"] = 21
 loaded_data["interest"].append("reading")
 
-# Writing to the data.json file and using json_file as the object
+# Writing to the data.json file and using json_file as the object to pass through arguments.
 with open("data.json", "w") as json_file:
-    # Passing through 3 args to be changed in the data.json file
+    # calling the json class library/object and using the dump method from json library to add and save the data being passed through. And indent 4 spaces.
     json.dump(loaded_data, json_file, indent=4)
 
+# This will print as a confirmation that the file has been updated.
 print("Modified data written to data.json")
