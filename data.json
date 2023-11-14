@@ -1,11 +1,12 @@
 {
     "name": "Jane Doe",
-    "age": 25,
+    "age": 21,
     "city": "Seattle",
     "interest": [
         "True crime",
         "video games",
-        "working out"
+        "working out",
+        "reading"
     ],
     "is_student": true
 }
